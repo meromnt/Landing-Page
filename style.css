@@ -14,6 +14,7 @@ body {
     justify-content: space-around;
     color: white;
     padding: 10px;
+    gap: 70px;
     }
     .main {
     display: flex;
@@ -53,6 +54,7 @@ body {
 .section2 {
     display: flex;
     justify-content: center;
+    margin-bottom: 75px;
 }
 .dog1, .dog2, .dog3, .dog4 {
     height: 200px;
@@ -82,4 +84,37 @@ body {
     display: flex;
     align-self: flex-end;
     margin-left: 40px;
+    font-weight: 600;
+}
+.bar {
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+
+}
+.barsection {
+    margin: 50px;
+}
+.signup2 {
+    margin-left: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #3882F6;
+    border: 1;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 20px;
+    color:white;
+}
+h3 {
+    color: white;
 }
