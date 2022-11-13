@@ -40,4 +40,32 @@ body {
     img {
     height: 200px;
     }
-    
+.title {
+    text-align: center;
+}    
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 75px;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+.dog1, .dog2, .dog3, .dog4 {
+    height: 200px;
+    width: 200px;
+}
+.logo {
+   font-size: 24px; 
+   margin-left: 30px;
+}
+.links {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.subtext {
+    font-size: 18px;
+}
